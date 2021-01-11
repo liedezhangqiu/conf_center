@@ -19,10 +19,10 @@ eureka:
 zuul:
   routes:
     base-provider:
-#       path: /base/**
-#       serviceId: base-provider
-       path: /**
+       path: /base/**
        serviceId: base-provider
+#       path: /**
+#       serviceId: base-provider
     base-test:
        path: /test/**
        serviceId: base-provider
