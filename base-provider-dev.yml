@@ -14,7 +14,7 @@ eureka:
    client:
      service-url:
         #注册地址
-        defaultZone: http://localhost:5060/eureka/
+        defaultZone: http://localhost:5080/eureka/
 
 zuul:
   routes:
